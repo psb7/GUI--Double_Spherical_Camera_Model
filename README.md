@@ -55,5 +55,5 @@ When you control the dsitortion_alpha and distortion_xi trackbars you are contro
 - `GUI_dsph.py` --> The file to create a **Double Spherical Camera Model** object
 
 ## Refrences
-[1] [Double Spherical Camera Model]('https://vision.in.tum.de/research/vslam/double-sphere') <br>
-[2] [Virtual Cam]('https://github.com/kaustubh-sadekar/VirtualCam')
+[1] Double Spherical Camera Model ('https://vision.in.tum.de/research/vslam/double-sphere') <br>
+[2] Virtual Cam ('https://github.com/kaustubh-sadekar/VirtualCam')
