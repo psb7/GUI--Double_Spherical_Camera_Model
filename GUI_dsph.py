@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import math
-from dsphvcam import vcam,meshGen
+from dsphvcam import DSCM,meshGen
 
 def nothing(x):
     pass
@@ -28,7 +28,7 @@ cv2.createTrackbar("Sy",WINDOW_NAME,100,1000,nothing)
 img = cv2.imread("assets/chess.png")
 H,W = img.shape[:2]
 
-c1 = vcam(H=H,W=W)
+c1 = DSCM(H=H,W=W)
 plane = meshGen(H,W)
 
 plane.Z = plane.X*0 + 1

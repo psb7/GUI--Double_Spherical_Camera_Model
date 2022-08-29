@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 
-class vcam:
+class DSCM:
 
 	def __init__(self,H=400,W=400):
 		"""
